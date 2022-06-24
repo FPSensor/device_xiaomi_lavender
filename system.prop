@@ -11,8 +11,8 @@ arm64.memtag.process.system_server=off
 debug.hwui.skia_atrace_enabled=false
 
 # ART
-dalvik.vm.dex2oat-filter=speed
-dalvik.vm.image-dex2oat-filter=speed
+dalvik.vm.dex2oat-filter=quicken
+dalvik.vm.image-dex2oat-filter=quicken
 
 # Graphics
 debug.sf.disable_hwc_overlays=1
