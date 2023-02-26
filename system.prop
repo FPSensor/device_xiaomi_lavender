@@ -11,6 +11,7 @@ arm64.memtag.process.system_server=off
 debug.hwui.skia_atrace_enabled=false
 
 # Graphics
+debug.sf.disable_hwc_overlays=1
 debug.sf.enable_hwc_vds=0
 dev.pm.dyn_samplingrate=1
 
