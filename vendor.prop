@@ -139,6 +139,7 @@ debug.renderengine.backend=skiaglthreaded
 debug.sf.disable_backpressure=0
 debug.cpurend.vsync=true
 debug.sf.enable_transaction_tracing=false
+debug.sf.predict_hwc_composition_strategy=0
 
 # DRM
 drm.service.enabled=true
