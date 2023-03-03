@@ -158,6 +158,13 @@ vendor.vidc.enc.disable_bframes=1
 vendor.vidc.dec.enable.downscalar=1
 vidc.enc.dcvs.extra-buff-count=2
 
+# Memory optimizations
+ro.vendor.qti.sys.fw.bservice_enable=true
+ro.vendor.qti.sys.fw.bservice_limit=5
+ro.vendor.qti.sys.fw.bservice_age=5000
+persist.device_config.runtime_native.usap_pool_enabled=true
+persist.device_config.runtime_native.usap_pool_size_max=5
+
 # Netmgr
 persist.vendor.data.iwlan.enable=true
 persist.vendor.data.mode=concurrent
