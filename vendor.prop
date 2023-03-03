@@ -151,6 +151,10 @@ drm.service.enabled=true
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
+# Hardware
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.hardware.egl=adreno
+
 # Media
 media.stagefright.enable-aac=true
 media.stagefright.enable-http=true
