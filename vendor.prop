@@ -100,6 +100,9 @@ persist.bluetooth.a2dp_offload.cap=sbc-aac-aptx-aptxhd-ldac
 # Blur
 ro.launcher.blur.appLaunch=0
 
+# Boot
+sys.vendor.shutdown.waittime=500
+
 # Camera
 persist.vendor.camera.HAL3.enabled=1
 
