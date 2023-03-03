@@ -138,6 +138,7 @@ ro.config.avoid_gfx_accel=true
 debug.renderengine.backend=skiaglthreaded
 debug.sf.disable_backpressure=0
 debug.cpurend.vsync=true
+debug.sf.enable_transaction_tracing=false
 
 # DRM
 drm.service.enabled=true
