@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/banana_lavender.mk
+    $(LOCAL_DIR)/ancient_lavender.mk
 
 COMMON_LUNCH_CHOICES := \
-    banana_lavender-user \
-    banana_lavender-userdebug \
-    banana_lavender-eng
+    ancient_lavender-user \
+    ancient_lavender-userdebug \
+    ancient_lavender-eng
